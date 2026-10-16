@@ -1,9 +1,16 @@
 import express from 'express'
 import mysql from "mysql2"
+import cors from "cors"
 
 // 앱 객체 생성
 const app = express();
 const PORT = 8000;
+
+//cors(Cross-origin- Resource Sharing, 교차출처 리소스 공유)
+// 브라우저가 보안상의 이유로 api 요청을 차단 방지 라이브러리
+app.use(cors({
+    origin: "http://localhost:5173",
+}))
 
 // mysql 연결 설정
 // host

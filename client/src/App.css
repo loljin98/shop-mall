@@ -1,0 +1,184 @@
+
+/* Header 스타일 */
+.header{
+  width: 100%;
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+.header a {margin: 0 16px; color: orange; text-decoration: none;}
+.header a:hover {text-decoration: underline;}
+.header-user {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  margin-left: 12px;
+}
+.logout-btn {
+  padding: 6px 12px;
+  border: 1px solid #ff9f1c;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #ff9f1c;
+}
+.logout-btn:hover {background-color: #ff9f1c;color: #333;}
+
+/* Main 스타일 */
+.main {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.main img {margin-top: 20px;}
+
+/* 상품 목록 스타일 */
+.product-list table{width: 60%; margin: 20px auto; border-collapse: collapse;}
+.product-list table th, td {border: 1px solid #ddd;padding: 8px;}
+.product-list table th {background-color: #f2f2f2;}
+.product-list .btn-add {text-align: right; margin-top: 20px; margin-right: 20%;}
+.product-list .btn-add button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.product-list .btn-add button:hover {background-color: #0056b3;}
+
+/* 상품 상세 정보 */
+.product-info .detail{
+  width: 50%; 
+  margin: 20px auto; 
+  background-color: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 8px;
+}
+.product-info .detail p {margin-bottom: 16px;}
+.product-info .btn-list{
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 25%;
+}
+.product-info .btn-list button{
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* 상품 등록 폼 */
+.add-product form{width: 40%; margin: 0 auto; text-align: left;}
+.add-product form label {
+  display: block; 
+  margin-bottom: 8px; 
+  font-weight: bold;
+}
+.add-product form input,
+.add-product form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.add-product form button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.add-product form button:hover {background-color: #218838;}
+.add-product form button[type="submit"] {margin-right: 10px;}
+.add-product form button[type="button"] {background-color: #6c757d}
+.add-product form button[type="button"]:hover {background-color: #5a6268;}
+
+/* 로그인 폼 */
+.sign-in form{width: 30%; margin: 20px auto; text-align: left;}
+.sign-in form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.sign-in form button {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 3%;
+}
+.sign-in form button:hover {background-color: #0056b3;}
+.signup-link{
+  text-align: center;
+  margin-top: 15px;
+}
+.signup-link a{
+  color: #007bff;
+  font-size: 17px;
+  text-decoration: none;
+}
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* 회원가입 폼 스타일 */
+.sign-up form{width: 40%; margin: 20px auto; text-align: left;}
+.sign-up form label {display: block; margin-bottom: 8px; font-weight: bold;}
+.sign-up form input,
+.sign-up form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.sign-up form select {
+  min-width: 160px;
+  padding: 10px 12px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.sign-up form .gender-title {margin-bottom: 8px;}
+.sign-up form .gender-options {
+  display: flex; 
+  flex-direction: 
+  row; gap: 24px; 
+  margin-bottom: 16px;
+}
+.sign-up form .gender-options label {
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  margin-bottom: 0; 
+  font-weight: normal;
+}
+.sign-up form .gender-options input[type="radio"] {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  accent-color: #007bff;
+}
+.sign-up form button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.sign-up form button:hover {background-color: #0056b3;}
+.sign-up form button[type="submit"] {margin-right: 10px;}
+.sign-up form button[type="button"] {background-color: #6c757d}
+.sign-up form button[type="button"]:hover {background-color: #5a6268;}
